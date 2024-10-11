@@ -37,9 +37,9 @@ h1 {
 
 h2{
    color:#2b1285;
-   margin-bottom:10px;
    max-width: 100%;
    max-height: 100%;
+   margin:10px 0;
 }
 
 h2.texto-objetivo{
@@ -54,11 +54,11 @@ p.informacoes_iniciais{
 }
 
 .container-ul{
-   margin:0;
+   margin:0 0 10px;
    padding:0;
    max-width: 100%;
    max-height: 100%;   
-   list-style: none;   
+   list-style: none;  
 }
 
 .container-ol{
