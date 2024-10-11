@@ -8,47 +8,73 @@
 </head>
 <body>
     <div class="container">
-        <h1>Tutorial Robô Gest</h1>
+        <h1 class="title">Tutorial Robô Gest</h1>
         
         <section class="objetivo sect">
-            <h2>Objetivo</h2>
-            <p>Automação do sistema de frequência de ponto de estagiários do TRT.</p>
-        </section>
+            <h2 class="objetivo">Objetivo</h2>
+            <p class="informacoes_iniciais">
+                Automação do sistema de frequência de ponto para estagiários do TRT.<br>
+                O aplicativo facilitará o registro da frequência, tornando o processo mais eficiente. Através deste app os estagiários poderão realizar login de forma simples, registrar seus horários de entrada e saída.
+            </p>
+            <p class="informacoes_iniciais">
+                A automação do processo assegura que todas as informações sejam registradas de forma segura e criptografada, respeitando a privacidade dos usuários.
+            </p>
     
         <section class="procedimentos sect">
             <h2>Procedimentos</h2>
-            <ol>
-                <li>
-                    <strong>Seleção de Dias Remotos</strong>
-                    <p class="parag">O robô solicitará a seleção dos dias em que o estagiário trabalhará remotamente.</p>
-                </li>
-                <li>
-                    <strong>Login e Senha</strong>
-                    <p class="parag">O robô pedirá as credenciais de login (usuário e senha) do Gest.</p>                    
-                </li>
-            </ol>
-        </section>
-    
+            <div class="containe-listas">
+                <ul class="container-ul">
+                    <ol class="container-ol">
+                        <h4 class="processo frequencia">Download</h4>
+                        <li class="li-filho">Faça o download do robô Gest e coloque-o na sua área de trabalho. Ele também pode ser adicionado ao menu iniciar.</li>
+                        <li class="li-filho">Link:<br><a class="link-gest" href="https://tinyurl.com/2e2t2mhd" target="_blank">Click para baixar o Robot Gest</a></li>
+                    </ol>
+                    <ol class="container-ol">
+                        <h4 class="processo frequencia">Usando o aplicativo</h4>
+                        <li class="li-filho">Click no app gest para iniciar o robô</li>
+                        <li class="li-filho">O robô solicitará a seleção dos dias em que o estagiário trabalhará remotamente.</li>                    
+                        <li class="li-filho">O robô pedirá as credenciais de login (usuário e senha) do Gest.</li>
+                    </ol>
+                </ul>
+                
+            </div>
+        </section>    
         <section class="processamentos sect">
             <h2>Processamentos</h2>
-            <ol>
-                <li>
-                    <strong>Criação de Arquivos</strong>
-                    <p class="parag">O robô irá criar e salvar arquivos na pasta <code>C:\</code>.</p>
-                    <p class="parag">Os dados serão criptografados por questões de segurança.</p>
-                    <p class="parag">Abra a pasta e verifique os arquivos em <code>C:\gest</code>.</p>
-                </li>
-                <li>
-                    <strong>Reutilização de Dados</strong>
-                    <p class="parag">Na próxima execução, o robô buscará os arquivos mencionados. Se não encontrá-los, solicitará novamente as informações.</p>
-                </li>
-                <li>
-                    <strong>Soluções</strong>
-                    <p class="parag">O robô está programado para lidar com erros.</p>
-                    <p class="parag">Em caso de dados incorretos, será solicitada a inserção dos dados novamente.<br> Aguarde o processamento, tenha paciência!</p>
-                    <p class="parag">Caso necessário, exclua a pasta <u>gest</u> e reinicie o robô.</p>
-                </li>
-            </ol>
+            <div class="containe-listas">
+                <ul class="container-ul">
+                    <ol class="container-ol">
+                        <h4 class="processo frequencia">Marcação de Frequência com o Robô Gest</h4>
+                        <li class="li-filho">O robô Gest inicia a operação.</li>
+                        <li class="li-filho">Abre automaticamente a página de login.</li>
+                        <li class="li-filho">Realiza o login com os dados fornecidos pelo usuário.</li>
+                        <li class="li-filho">Clica na opção de frequência e abre o calendário.</li>
+                        <li class="li-filho">Escolhe o dia atual.</li>
+                        <li class="li-filho">Clica na opção 'Frequência Diária'.</li>
+                        <li class="li-filho">Seleciona o modo do estágio: 'Presencial' ou 'Remoto'.</li>
+                        <li class="li-filho">Registra os horários de início e saída.</li>
+                        <li class="li-filho">Salva o registro.</li>
+                        <li class="li-filho">O processo é encerrado com um botão para fechar tanto o robô quanto a página do Gest.</li>
+                    </ol>  
+                    <ol class="container-ol">
+                        <h4 class="processo arquivos">Salvamento de Arquivos</h4>
+                        <li class="li-filho">O robô criará e salvará arquivos na pasta <code>C:\</code>.</li>
+                        <li class="li-filho">Os dados serão criptografados</li>
+                        <li class="li-filho">Abra a pasta e verifique os arquivos em <code>C:\gest</code>.</li>
+                    </ol>
+                    <ol class="container-ol">
+                        <h4 class="processo reutilizar_dados">Reutilização de Dados</h4>
+                        <li class="li-filho">Na próxima execução, o robô buscará os arquivos mencionados. Se não encontrá-los ou se estiverem corrompidos, solicitará novamente as informações.</li>
+                    </ol>
+                    <ol class="container-ol">
+                        <h4 class="processo solucoes">Soluções</h4>
+                        <li class="li-filho">O robô está programado para lidar com erros.</li>
+                        <li class="li-filho">Em caso de dados incorretos, será solicitada a inserção dos dados novamente.<br> Aguarde o processamento; tenha paciência!</li>
+                        <li class="li-filho">Caso necessário, exclua a pasta <u>gest</u> e reinicie o robô.</li>
+                    </ol>
+                </ul>
+                
+            </div>
         </section>
     
         <section class="informacoes-adicionais sect">
