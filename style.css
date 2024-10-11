@@ -42,14 +42,12 @@ h2{
    margin:10px 0;
 }
 
-
 p.informacoes_iniciais{
    max-width: 100%;
    max-height: 100%;
    margin:8px 20px;
    text-align: justify;
 }
-
 
 .container-ul{
    margin:0 0 10px;
@@ -70,7 +68,6 @@ h4.processo{
    margin:0 0 0 10px;
    padding:5px 0;
    background-color: #cbdfe079;
-
 }
 
 .li-filho{
@@ -87,9 +84,10 @@ display:block;
 text-decoration: none;
 font-weight: 550;
 }
+
 .link-gest:hover{
    color:#045745;
-   }
+}
 
 footer {
    display:flex;
