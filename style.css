@@ -6,12 +6,26 @@ body {
 }
 
 .container {
-   max-width: 800px;
+   max-width: 1000px;
    margin: auto;
    padding: 15px;
    border-radius: 8px;
    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
    background-image: linear-gradient(to right top, #051937, #0d1940, #191847, #28154d, #380d50);
+   position:relative;
+}
+
+.header{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.img-ponto{
+   width:clamp(60px, 2vw, 200px);
+   position:absolute;
+   right:0;
+   margin-right: 3em;
 }
 
 .sect{
@@ -102,6 +116,7 @@ footer {
    bottom: 0; 
    max-width: 100%;
    max-height: 100%;
+   border-radius: 10px;
 }
 
 .autor{
@@ -122,4 +137,42 @@ img.pix{
    img.pix{
       width: clamp(80px, 3vw, 200px);
    }
+}
+
+.wistia_responsive_padding {
+   padding: 56.25% 0 0 0;
+   position: relative;
+   margin-bottom: 10px;
+}
+
+.wistia_responsive_wrapper {
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.wistia_embed {
+   height: 100%;
+   position: relative;
+   width: 100%;
+}
+
+.wistia_swatch {
+   height: 100%;
+   left: 0;
+   opacity: 0;
+   overflow: hidden;
+   position: absolute;
+   top: 0;
+   transition: opacity 200ms;
+   width: 100%;
+}
+
+.wistia_swatch img {
+   filter: blur(5px);
+   height: 100%;
+   object-fit: contain;
+   width: 100%;
 }
