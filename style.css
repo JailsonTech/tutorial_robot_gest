@@ -159,3 +159,11 @@ img.pix{
    position: relative;
    width: 100%;
 }
+
+@media (orientation: landscape) {
+   .wistia_responsive_wrapper {
+       width: 100vw;
+       height: 100vh;
+   }
+}
+
