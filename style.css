@@ -143,7 +143,6 @@ img.pix{
 .wistia_responsive_padding {
    padding: 56.25% 0 0 0;
    position: relative;
-   margin-bottom: 10px;
 }
 
 .wistia_responsive_wrapper {
@@ -155,16 +154,25 @@ img.pix{
 }
 
 .wistia_embed {
-   display: inline-block;
    height: 100%;
    position: relative;
    width: 100%;
 }
 
-@media (orientation: landscape) {
-   .wistia_responsive_wrapper {
-       width: 100vw;
-       height: 100vh;
-   }
+.wistia_swatch {
+   height: 100%;
+   left: 0;
+   opacity: 0;
+   overflow: hidden;
+   position: absolute;
+   top: 0;
+   transition: opacity 200ms;
+   width: 100%;
 }
 
+.wistia_swatch img {
+   filter: blur(5px);
+   height: 100%;
+   object-fit: contain;
+   width: 100%;
+}
