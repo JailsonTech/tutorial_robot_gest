@@ -218,8 +218,6 @@ img.pix{
    
    
    .img-ponto{
-      top:0.5%;
-      left:5%;
       width:clamp(40px, 2vw, 200px);
    }
 }
