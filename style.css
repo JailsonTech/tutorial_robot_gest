@@ -6,9 +6,9 @@ body {
 }
 
 .container {
-   max-width: 1000px;
+   max-width: max-content;
    margin: auto;
-   padding: 15px;
+   padding: 15px 5px;
    border-radius: 8px;
    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
    background-image: linear-gradient(to right top, #051937, #0d1940, #191847, #28154d, #380d50);
@@ -25,7 +25,7 @@ body {
 p.informacoes_iniciais{
    max-width: 100%;
    max-height: 100%;
-   margin:8px 20px;
+   margin:8px 5px;
    text-align: justify;
    font-size:clamp(1em, 1.1em + .5vw, 24px);
 }
@@ -63,6 +63,8 @@ h2{
    max-width: 100%;
    max-height: 100%;
    margin:10px 0;
+   font-size:clamp(1.2em, 1.2em + .5vw, 24px);
+   text-transform: uppercase;
 }
 .container-ul{
    margin:0 0 10px;
@@ -82,7 +84,10 @@ h2{
 h4.processo{
    margin:0 0 0 10px;
    padding:5px 0;
-   background-color: #cbdfe079;
+   max-width: 100%;
+   max-height: 100%;
+   font-size:clamp(1.1em, 1.2em + .5vw, 24px);
+   background-color: #29eaff;
 }
 
 .li-filho{
@@ -141,9 +146,15 @@ img.pix{
    }
 }
 
+.h2-assista{
+   color:#fff;
+   margin-left: 10px;
+}
+
 .wistia_responsive_padding {
    padding: 56.25% 0 0 0;
    position: relative;
+   margin-bottom: 10px;
 }
 
 .wistia_responsive_wrapper {
@@ -175,5 +186,5 @@ img.pix{
    filter: blur(5px);
    height: 100%;
    object-fit: contain;
-   width: 100%;
+   width: 50%;
 }
