@@ -103,10 +103,27 @@ h4.processo {
 
 img.mao{
    position:absolute;
-   width:clamp(30px, 40px, 100px);
-   transform:rotate(105deg);
-   top:-4px;
-   left:8em;
+   width:clamp(25px, 40px, 100px);
+   top:80px;
+   left:0;
+   transform:rotate(-15deg)
+}
+
+.p-firefox{
+   margin: 5px 0 0 1.6em;
+   padding: 4px;
+   font-size: clamp(1em, 1.1em + .5vw, 24px);
+   word-wrap: break-word;
+}
+
+.firefox{
+   font-family:'Courier New', Courier, monospace;
+   color: #990ec4;
+   text-decoration: none;
+   font-size: clamp(1em, 1em + .2vw, 1vw);
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+   font-variant: small-caps;
 }
 
 .link-gest {
@@ -221,3 +238,49 @@ img.pix {
       width:clamp(40px, 2vw, 200px);
    }
 }
+
+/* ...........Responsividade Mão............. */
+@media (max-width: 681px) {
+   img.mao{
+      top:98px;
+   }
+}
+
+@media (max-width: 516px) {
+   img.mao{
+      top:120px;
+   }
+}
+
+@media (max-width: 504px) {
+   img.mao{
+      top:140px;
+   }
+}
+
+@media (max-width: 397px) {
+   img.mao{
+      top:160px;
+}
+}
+
+@media (max-width: 365px) {
+   img.mao{
+      top:180px;
+   }
+}
+
+@media (max-width: 358px) {
+   img.mao{
+      top:207px;
+   }
+}
+
+@media (max-width: 311px) {
+   img.mao{
+      top:228px;
+   }
+   }
+
+
+
