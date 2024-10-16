@@ -116,6 +116,7 @@ img.mao{
    word-wrap: break-word;
 }
 
+
 #firefox{
    color:#051937ec;
    font-style: italic;
@@ -123,7 +124,9 @@ img.mao{
    text-shadow: .5px .5px 2px #df82f7de;
 }
 
-.firefox{
+
+
+.link-gest {
    font-family:'Courier New', Courier, monospace;
    color: #990ec4;
    text-decoration: none;
@@ -131,15 +134,9 @@ img.mao{
    font-family:Verdana, Geneva, Tahoma, sans-serif;
    font-style: italic;
    font-variant: small-caps;
-}
-
-.link-gest {
-   color: #990ec4;
-   text-decoration: none;
-   font-size: clamp(1em, 1em + .2vw, 1vw);
-   font-family:Verdana, Geneva, Tahoma, sans-serif;
-   font-style: italic;
-   font-variant: small-caps;
+   display:block;
+   margin:5px 0 0 5px;
+   max-width: max-content;
 }
 
 .link-gest:hover {
