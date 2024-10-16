@@ -104,7 +104,7 @@ h4.processo {
 img.mao{
    position:absolute;
    width:clamp(25px, 40px, 100px);
-   top:80px;
+   top:55px;
    left:0;
    transform:rotate(-15deg)
 }
@@ -114,6 +114,13 @@ img.mao{
    padding: 4px;
    font-size: clamp(1em, 1.1em + .5vw, 24px);
    word-wrap: break-word;
+}
+
+#firefox{
+   color:#051937ec;
+   font-style: italic;
+   font-variant: small-caps;
+   text-shadow: .5px .5px 2px #df82f7de;
 }
 
 .firefox{
@@ -240,47 +247,35 @@ img.pix {
 }
 
 /* ...........Responsividade Mão............. */
-@media (max-width: 681px) {
+@media (max-width: 785px) {
    img.mao{
-      top:98px;
+      top:75px;
    }
 }
 
-@media (max-width: 516px) {
+@media (max-width: 537px) {
    img.mao{
-      top:120px;
+      top:95px;
    }
 }
 
-@media (max-width: 504px) {
+@media (max-width: 437px) {
    img.mao{
-      top:140px;
-   }
-}
-
-@media (max-width: 397px) {
-   img.mao{
-      top:160px;
-}
-}
-
-@media (max-width: 365px) {
-   img.mao{
-      top:180px;
+      top:115px;
    }
 }
 
 @media (max-width: 358px) {
    img.mao{
-      top:207px;
+      top:140px;
    }
 }
 
-@media (max-width: 311px) {
+@media (max-width: 338px) {
    img.mao{
-      top:228px;
+      top:165px;
    }
-   }
+}
 
 
 
